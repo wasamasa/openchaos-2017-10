@@ -65,6 +65,10 @@
 - Frege (Haskell)
 - Kawa / JScheme / SISC (Scheme)
 
+** Mandatory XKCD-Strip
+
+[[./img/lisp_cycles.png]]
+
 ** Kawa
 
 - Existiert seit 1998, unterstützt die gängigen Standards (R5RS, R6RS,

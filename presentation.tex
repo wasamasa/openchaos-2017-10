@@ -1,4 +1,4 @@
-% Created 2017-10-26 Thu 19:07
+% Created 2017-10-26 Thu 23:05
 \documentclass[presentation]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -104,7 +104,11 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile,label=sec-1-8]{Kawa}
+\begin{frame}[label=sec-1-8]{Mandatory XKCD-Strip}
+\includegraphics[width=.9\linewidth]{./img/lisp_cycles.png}
+\end{frame}
+
+\begin{frame}[fragile,label=sec-1-9]{Kawa}
  \begin{itemize}
 \item Existiert seit 1998, unterstützt die gängigen Standards (R5RS, R6RS,
 R7RS)
@@ -117,7 +121,7 @@ R7RS)
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile,label=sec-1-9]{Waka}
+\begin{frame}[fragile,label=sec-1-10]{Waka}
  \begin{itemize}
 \item Sorry für den Namen
 \item Dependencies: JLine3 (Terminal-Support), \texttt{javax.sound.midi}
@@ -534,9 +538,8 @@ ist
 \item Problem: Es ist etwas nervig sich Kawa mit JLine3 einzurichten
 \item Lösung: Konstruktion einer JAR-Datei die alle nötigen class-Dateien
 beinhaltet um waka auszuführen
-\item Problem: Es gibt keine fertigen allgemeintauglichen Tools dafür,
-empfohlen werden \texttt{ant}, \texttt{maven} und Enterprise-taugliche Projekte
-mit eigenem Class Loader
+\item Problem: Es gibt keine fertigen Tools dafür, empfohlen werden \texttt{ant},
+\texttt{maven} und ein Enterprise-taugliches Projekt mit eigenem Class Loader
 \item Lösung: Händisches Erstellen eines Uberjars und Automatisierung mit
 GNU Make
 \item \url{https://github.com/wasamasa/waka/blob/master/Makefile}
