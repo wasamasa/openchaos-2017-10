@@ -9,4 +9,4 @@ Der Vortrag geht auf die Motivation, Fähigkeiten und die
 Implementierung von Waka ein, zusätzlich dazu werden die Fähigkeiten
 der Software demonstriert.
 
-[[https://koeln.ccc.de/updates/2017-10-26_OC-Waka.xml][OpenChaos-Ankündigung]], Videoaufnahme (TBD).
+[[https://koeln.ccc.de/updates/2017-10-26_OC-Waka.xml][OpenChaos-Ankündigung]], [[https://media.ccc.de/v/c4.openchaos.2017.10.klavier-spielen-mit-kawa-scheme][Videoaufnahme]].
